@@ -3,6 +3,7 @@
     margin: 0%;
 }
 
+/* NAV BAR */
 
 header {
     display: block;
@@ -20,90 +21,85 @@ header img {
     margin-top: 2%;
 }
 
-
-.container {
-    background-color: white;
-    margin-left: 5%;
-}
-
+/* TITOLO */
 h1 {
     margin: 0;
 }
 
+/* SPAZIO SOTTO PER OGNI FOOTER NEL MAIN */
 main footer {
     margin-bottom: 25px;
 }
 
+
+/* MARGINE AI LATI DEL MAIN PER OCCUPARE L'80% DELLA PAGINA */
 main {
-    background-color: white;
+    margin: 0% 10%;
 }
 
-
+/* EVIDENZIAMENTO TESTO */
 p span {
     background-color: yellow;
 }
 
-ul {
-    margin-top: 50px;
-    box-sizing: border-box;
-    position: relative;
-    right: 20px
-}
 
-
+/* STILE THEAD */
 thead {
     color: white;
     background-color: rgb(110, 194, 166);
     text-align: left;
 }
 
+/* COLORE RIGHE TABELLA*/
 .color-row {
     background-color: lightgray;
 }
 
-
+/* MARGINE TABELLA */
 table {
     margin-top: 40px;
-    table-layout: fixed;
-    width: 100%;
     margin-bottom: 50px;
 }
 
+/* GRANDEZZA PRIMA DUE CELLE */
+.width-row {
+    width: 20%;
+}
 
-
+/* DISTANZA CONTENUTO CELLE */
 td {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+
+/* FOOTER FINALE */
 .foot-article {
     text-align: center;
     color: white;
     background-color: #003399;
     padding: 15px;
+    font-weight: bold;
 }
 
-.foot-final {
-    background-color: grey;
-    width: 5%;
-    height: 5%;
-}
-
+/* CAMBIO COLORE A "THE BOOLEANER NEL FOOTER DEL TITOLO */
 #booleaner {
     color: rgb(110, 202, 172);
 }
 
-
+/* FOOTER DEL TITOLO */
 .foot-title {
     color: grey;
 }
 
-
+/* FOOTER DELLA DATA */
 .foot-title2 {
     font-size: small;
     color: grey;
 }
 
+/* FOOTER SOTTO LA FOTO */
 .foot-photo {
     font-size: small;
+    font-family: "Roboto Condensed", sans-serif;
 }
